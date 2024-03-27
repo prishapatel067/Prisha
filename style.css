@@ -1,0 +1,101 @@
+/*Start Writing CSS*/
+
+/*Step 1
+Add Class With Name navbar
+Add Background Color #393E46*/
+.navbar{
+    background-color: #393E46;
+}
+
+/*Step 2
+Add Class With Name top-section And Display Flex
+*/
+.top-section{
+    display:flex
+}
+
+/*Step 3 
+Add Class With Name image-div And side-detail-div
+Add Margin Top 50px
+Add Margin Left 50px
+Add Background Color #929AAB
+Add Width 18rem
+Add Display Block
+*/
+.image-div , .side-detail-div{
+    margin-Top:50px;
+    margin-Left:50px;
+    background-color: #929AAB;
+    width:18rem;
+    display:block;
+
+}
+
+/*Step 4 
+Add Class With Name side-detail-div
+Add Width 100%
+Add Margin Right 20px
+*/
+.side-detail-div{
+    width: 100%;
+    margin-right: 20px;
+}
+
+/*Step 5 
+Add Class With Name card-img-top and add border radius 50%
+*/
+.card-img-top{
+    border-radius:50px;
+} 
+/*Step 6 
+Add Class With Name card-title And card-text
+Add Text Align Center
+Add Padding 10px
+*/
+.card-title , .card-text{
+    text-align: center;
+    padding: 10px;
+}
+
+/*Step 7 
+Add Class With Name inner-div
+Add Margin Left 20px
+Add Display Flex
+*/
+.inner-div{
+    margin-left:20px;
+    display:flex;
+}
+
+/*Step 8 
+Add Class With Name col-8 and add margin-left: 20px
+*/
+.col-8{
+    margin-left:20px;
+}
+/*
+Step 9
+Add Footer Tag
+Add Margin Top 20px
+Add Padding Left 50px
+Add Padding Right 20px
+Add Margin Bottom 20px
+*/
+footer{
+    margin-top:20px;
+    padding-left:50px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+/*
+Step 10
+Add Class With Name form-label
+Add Float Left
+*/
+.form-label{
+    float:left;
+
+}
+
+/1711510731582.jpg
