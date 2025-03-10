@@ -1,101 +1,98 @@
-/*Start Writing CSS*/
-
-/*Step 1
-Add Class With Name navbar
-Add Background Color #393E46*/
-.navbar{
-    background-color: #393E46;
-}
-
-/*Step 2
-Add Class With Name top-section And Display Flex
-*/
-.top-section{
-    display:flex
-}
-
-/*Step 3 
-Add Class With Name image-div And side-detail-div
-Add Margin Top 50px
-Add Margin Left 50px
-Add Background Color #929AAB
-Add Width 18rem
-Add Display Block
-*/
-.image-div , .side-detail-div{
-    margin-Top:50px;
-    margin-Left:50px;
-    background-color: #929AAB;
-    width:18rem;
-    display:block;
+body{
+    background-image:url(6898823.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Times New Roman;
+ color:aquamarine;
 
 }
 
-/*Step 4 
-Add Class With Name side-detail-div
-Add Width 100%
-Add Margin Right 20px
-*/
-.side-detail-div{
-    width: 100%;
-    margin-right: 20px;
+
+.login-box{
+    width:320px;
+    height: 390px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter:blur(3px);
+    border-radius:20px;
 }
 
-/*Step 5 
-Add Class With Name card-img-top and add border radius 50%
-*/
-.card-img-top{
-    border-radius:50px;
-} 
-/*Step 6 
-Add Class With Name card-title And card-text
-Add Text Align Center
-Add Padding 10px
-*/
-.card-title , .card-text{
-    text-align: center;
-    padding: 10px;
-}
-
-/*Step 7 
-Add Class With Name inner-div
-Add Margin Left 20px
-Add Display Flex
-*/
-.inner-div{
-    margin-left:20px;
-    display:flex;
-}
-
-/*Step 8 
-Add Class With Name col-8 and add margin-left: 20px
-*/
-.col-8{
-    margin-left:20px;
-}
-/*
-Step 9
-Add Footer Tag
-Add Margin Top 20px
-Add Padding Left 50px
-Add Padding Right 20px
-Add Margin Bottom 20px
-*/
-footer{
-    margin-top:20px;
-    padding-left:50px;
-    padding-right:20px;
-    margin-bottom:20px;
-}
-
-/*
-Step 10
-Add Class With Name form-label
-Add Float Left
-*/
-.form-label{
-    float:left;
+h2{
+    margin-top:2px;
+    margin-left: 37%;
+  font-size:22px;
+  cursor:pointer;
 
 }
 
-/1711510731582.jpg
+h4{
+    margin-top:2px;
+    margin-left: 20%;
+  font-size:19px;
+  cursor:pointer;
+}
+
+h3,input{
+    margin-left: 30px;
+}
+
+h3{
+   font-size: 20px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+input{
+    width:80%;
+    height:20px;
+    outline:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background: transparent;
+    border-bottom: solid aquamarine;
+color: #fff;
+font-size: 15px;
+letter-spacing:1px;
+font-family: Times New Roman;
+padding-bottom:3px;
+margin-bottom:15px;
+transition: 0.3s  ease;
+}
+
+input:hover{
+
+    border-bottom:solid aquamarine;
+}
+
+::placeholder{
+    color:aquamarine;
+}
+
+i{
+    color:aquamarine;
+    margin-left:-20px; 
+}
+
+button{
+    font-size: 18px;
+    padding: 6px 16px;
+    margin-top: 20px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    color:aquamarine;
+    background: #000;
+    margin-left: 118px;
+    cursor:pointer;  
+    transition: 0.3s ease;
+}
+
+button:hover{
+    color:aquamarine;
+    background:#fff;
+}

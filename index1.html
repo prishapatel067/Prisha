@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN-BOX DESIGN | 2025 | PROFILE</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+    <div class="login-box">
+
+        <h2> ADMIN</h2>
+        <h4>Welcome to login Page..</h4>
+        <h3> Email:</h3>
+        <input type="Email" name="" placeholder="Your email..">
+        <h3> Password:</h3>
+        <input type="password" name="" placeholder="Your password.." id="pass">
+        <i class="fas fa-eye" onclick="see()"></i>
+
+        <button type="button">LOGIN</button>
+        </div>
+
+        <script>
+           function see(){
+            var x = document.getElementById("pass");
+            if(x.type==="password"){
+                x.type = "text";
+            }
+            else{
+                x.type = "password";
+            }
+           }
+        </script>
+</body>
+</html>
